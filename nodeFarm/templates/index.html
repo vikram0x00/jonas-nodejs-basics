@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Node Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        html, body{
+            padding: 0;
+            margin: 0;
+            background-color: #4caf50;
+        }
+        *{
+            color: white;
+            font-family: 'Manrope';
+        }
+        .navbar{
+            background-color: #d3d3d336;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .item{
+            background-color: #005000;
+            padding-inline: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 70vw;
+            height: 60px;
+            margin-top: 10px;
+        }
+        .item .emoji{
+            font-size: 30px;
+        }
+        .item .organic {
+            color: greenyellow;
+        }
+        .item a{
+            text-decoration: none;
+            background-color: #4caf50;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h3>🍃 The Node Farm 🌿</h3>
+    </nav>
+    <section class="main">
+        <h1>Products 📦</h1>
+        <div class="container">
+            <div class="item">
+                <h3 class="emoji">🤣</h3>
+                <h3 class="name">Laugh</h3>
+                <p class="organic">ORGANIC</p>
+                <p class="quantity">2 🤣 PER 📦</p>
+                <p class="price">$200</p>
+                <a href="/product">DETAILS</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
